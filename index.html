@@ -1,170 +1,411 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Space+Mono" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="bvs.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <title>BVS Design - Bespoke Web Services Based in Skipton, North Yorkshire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Steve Marks Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/c7b754904c.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
-  
- 
-  
-  <header class="main">
-    <div class="overlay"></div>
 
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+<header>
+  <nav class="nav">
+      <button class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
 
-      <div class="header-text">
-        <h1>Steve Marks - Web Developer</h1>
+      <div class="nav-overlay">
+        <div class="overlay-content">
+          <div class="close-btn" id="nav-close"><i class="far fa-window-close"></i></div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link link">Home</a>
+            <a href="#about" class="nav-link link">About</a>
+            <a href="#projects" class="nav-link link">Projects</a>
+            <a href="#services" class="nav-link link">Services</a>
+            <a href="mailto:stevenmarks75@gmail.com" class="nav-link link">Contact</a>
+        </div>
+        </div>
+        
       </div>
-
-    </header>  
-
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <h2 class="">My Portfolio</h2> 
-      <p>Welcome to my Portfolio! Please see below for examples of my work. Click on the thumbnails to go to the websites.
-      To work with me just Call <a tel:07521917508>07521917508</a>!</p>
-
-
-      <div class="card-container">
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/cravencats.jpg" alt="Picture of Craven Cats Lodge Website">
-          </div>
-          <div class="contentBx">
-              <h2>Craven Cats Lodge</h2>
-              <p>Lorem ipsum dolor sit amet 
-              consectetur adipisicing elit. Voluptate
-              vero laudantium autem sapiente quisquam
-              eveniet, beatae fugiat? Qui, et tenetur!</p>
-              <a href="https://www.cravencatslodge.co.uk"><span>Go to Site</span></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/BFCUnofficial.jpg" alt="Picture of BFC Unofficial website">
-          </div>
-          <div class="contentBx">
-              <h2>BFCUnofficial</h2>
-              <p>Lorem ipsum dolor sit amet 
-              consectetur adipisicing elit. Voluptate
-              vero laudantium autem sapiente quisquam
-              eveniet, beatae fugiat? Qui, et tenetur!</p>
-              <a href="#"><span>Go to Site</span></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/gargraveunited.jpg" alt="Picture of Gargrave Utd FC Website">
-          </div>
-          <div class="contentBx">
-              <h2>Gargrave Juniors FC</h2>
-              <p>Lorem ipsum dolor sit amet 
-              consectetur adipisicing elit. Voluptate
-              vero laudantium autem sapiente quisquam
-              eveniet, beatae fugiat? Qui, et tenetur!</p>
-              <a href="#"><span>Go to Site</span></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/gdc.jpg" alt="Picture of Grassinton Dental Care website">
-          </div>
-          <div class="contentBx">
-              <h2>Rock, Paper, Scissors</h2>
-              <p>I saw this in a Javascript tutorial and decided to give it a go - it's not a bad effort!</p>
-              <a href="#"><span>Click here to play!</span></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/gdc.jpg" alt="Picture of Grassinton Dental Care website">
-          </div>
-          <div class="contentBx">
-              <h2>Coming Soon - JavaScript Quiz!</h2>
-              <p>I love this! Fetching questions from an API, checking scores, announcing a result and adding a difficulty level! Makes for a fun game!</p>
-              <a href="#"><span>Click here to play!</span></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="imgBx">
-              <img src="./imgs/gdc.jpg" alt="Picture of Grassinton Dental Care website">
-          </div>
-          <div class="contentBx">
-              <h2>My Football Draw</h2>
-              <p>This isn't finished yet, and is ugly as... But I got my inspiration from watching an FA Cup Football Draw on TV! I am attempting to recreate it in Javascript!
-              </p>
-              <a href="#"><span>Click here to see</span></a>
-          </div>
-        </div>
-
-      </div>
-
       
-    </div>
-  </section>
 
-  <section id="services" class="services">
-    <div class="container">
-      <h2>My Services</h2>
-      <p>Please see below for the great value services I offer!</p>
-      <div class="card-container">
-        <div class="box">
-          <div class="content">
-              <h2>01</h2>
-              <h3>Bespoke Managed Sites</h3>
-              <p>Hand coded sites designed to spec, and managed by us - no worries about updating anything, it's all done by me!
-                Up to 10 pages included.
-              </p>
-              <a href="#">£1000</a>
-          </div>
+      <div class="nav-social">
+        <ul class="icons-list">
+          <li><a class="nav-link link" href="mailto:stevenmarks75@gmail.com"><i class="far fa-envelope"></i></a></li>
+          <li><a class="nav-link link" href="tel:07521917508"><i class="fas fa-phone"></i></a></li>
+          <li><a class="nav-link link" href="https://www.facebook.com/steven.marks3"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="nav-link link" href="https://www.linkedin.com/in/steve-marks-a373321a3/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="nav-link link" href="https://twitter.com/loremsteve"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+      </div>
+
+  </nav>
+</header>
+
+
+
+<main id="main">
+    <section id="intro">
+        <div class="intro-text">
+            <h1 class="title">welcome to BVSWebDesign</h1>
+            <div class="text">
+              <h2>Bringing Ideas to Life and Loving It!
+                </h2>
+              </div>
+
+            <a href="mailto:stevenmarks75@gmail.com"><button class="button-cta">Work with me!</button></a>
         </div>
-  
-        <div class="box">
-          <div class="content">
-              <h2>02</h2>
-              <h3>WordPress Sites</h3>
-              <p>We can hand these over for you to edit as you wish, and guide you through the process!
-              </p>
-              <a href="#">£400</a>
-          </div>
+
+        <div class="intro-image">
+          <div class="overlay"></div>
         </div>
-  
-        <div class="box">
-          <div class="content">
-              <h2>03</h2>
-              <h3>Social Media & SEO</h3>
-              <p>We can manage your social media, and optimise your site to gain traction on the biggest search engines!</p>
-              </p>
-              <a href="#">POA</a>
+        
+    </section>
+
+    <section id="about" data-aos="fade-left">
+
+          <div class="spotlight one">
+            <div class="text-container">
+              <h2 class="section-header">Freelance Web Marketing Agency</h2>
+              <p>Hi, I'm Steve! Based in the North Yorkshire town of Skipton, I aim to help small to medium sized businesses
+              reach their potential by conquering the online world. The world of websites can be a confusing and
+              challenging area; I aim to make the process as simple as possible, so you can get on with running your
+              business.</p>
+              <p>I like to work in a way that involves the client, whilst unloading all the burden. You have the final
+                say on your website, to make it work for you.</p>
+              <p>All my work is bespoke, if you are looking for a wix site you can build in 5 minutes,
+              you won't find that here - my work is crafted to aid your business the premium appearance it deserves.</p>
+              <p>Quality is never Compromised.</p>
+
+                <a href="mailto:stevenmarks75@gmail.com"><button class="button-cta">Work with me!</button></a>
+            </div>
+          
+            <div class="about-image">
+              <div class="overlay"></div>
+            </div>
           </div>
+    </section>
+
+    <section id="projects" data-aos="fade-right">
+        <div class="spotlight">
+            <div class="text-container">
+              <h2 class="section-header">My Recent Work</h2>
+              <p>Please scroll through to see examples of my work. To obtain a quote please
+                click the button below! I love working on projects for my clients - from the initial idea
+                 to the challenge of building to seeing your site go live! Take a look for yourself at what I
+                have produced for other local businesses!</p>
+              <a href="mailto:stevenmarks75@gmail.com"><button class="button-cta">Work with me!</button></a>
+            </div>
+        </div>
+          
+        <div class="scroll-container">
+            <ul class="container full">
+              <li class="item">
+                <div class="item-image">
+                <a href="#"><img src="./coming-soon.jpg" alt="Coming Soon image"></a>
+                </div>
+                <div class="item-content">
+                  Coming Soon - The Beer Shop
+                  <p>Tech Used: Custom WordPress Theme, Plugins,
+                    WooCommerce, HTML, CSS, Javascript. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="item-image">
+                  <a href="./yourface.jpg"><img src="./yourface.jpg" alt="Your Face Botox site image"></a>
+                </div>
+                <div class="item-content">
+                  Coming Soon - Botox Website
+                  <p>Tech Used: Custom WordPress Theme, Plugins,
+                      Shopify, HTML, CSS, Javascript. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="item-image">
+                    <a href="https://www.bvswebdesign.co.uk/grassingtondentalcare/index.html"><img src="./gdc.jpg" alt="Grassington Dental Care Website Image"></a>
+                </div>
+                <div class="item-content">
+                  Grassington Dental Care
+                  <p>Tech Used: WordPress Theme, Bookings Plugin,
+                     HTML, CSS, JQuery. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="item-image">
+                  <a href="https://www.bvswebdesign.co.uk/BFCUnofficial/index.html"><img src="./bfcunofficial.jpg" alt="bfc Unofficial Image"></a>
+                </div>
+                <div class="item-content">
+                  BFCUnofficial Landing Page
+                  <p>Tech Used: HTML, SASS/SCSS, Animations, Javascript. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="item">
+                  <div class="item-image">
+                    <a href="https://www.cravencatslodge.co.uk"><img src="cravencats.jpg" alt="Project Image"></a>
+                  </div>
+                  <div class="item-content">
+                    Craven Cats Lodge Website
+                    <p>I learnt a specific WordPress site builder for this project, which was great fun!
+                    </p>
+                  </div>
+                </li>
+
+                <li class="item">
+                  <div class="item-image">
+                    <a href="https://www.bvswebdesign.co.uk/dogwalker/index.html"><img src="./pawfectpetcare.jpg" alt="Pawfect Pet Care Image"></a>
+                  </div>
+                  <div class="item-content">
+                    Pawfect Pet Care Services
+                    <p>One of my first HTML and CSS projects. I'd love to go back to add more features
+                      at some point!
+                    </p>
+                  </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" data-aos="fade-left">
+      <h2 class="section-header">Our Services</h2>
+      <div class="services-text-container">
+        <p>We Offer 3 main web packages and 3 monthly marketing and social media packages
+        which cover the range of services most in demand.</p>
+
+        <p>I have set up a social media service to assist small businesses with their social
+         media activity. A lot of businesses struggle to find the time to update their social
+         media pages, and when they do post, they do not always  posses any social media  knowledge
+         and struggle to think of new things to come up with. It is important to have regular
+         activity on your social media pages and website to help with SEO and to keep your customer interested
+         and therefore more likely to buy from you.</p>
+
+         <p>Luckily, I have packages that can help you with this to suit all budgets.</p>
+      </div>
+
+
+      <div class="services-container">
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+              <h3>Web Package One</h3>
+                <p>The Basic Page Package</p>
+                <button class="button-cta" id="modal-open">View Package</button>
+        </div>
+
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+          <h3>Web Package Two</h3>
+          <p>Functional Site Package
+          </p>
+            <button class="button-cta" id="modal-open">View Package</button>
+        </div>
+
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+          <h3>Web Package Three</h3>
+          <p>E-Commerce Site & Shop
+          </p>
+            <button class="button-cta" id="modal-open">View Package</button>
         </div>
       </div>
-    </div> 
-  </section>
+
+      <h2 class="section-header">Marketing Services</h2>
+      <div class="services-text-container">
+        <p>Our 3 packages to take care of all your social media and online marketing needs.
+      </p>
+      </div>
 
 
+      <div class="services-container">
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+              <h3>Marketing Package One</h3>
+                <p>The Basic Package</p>
+                <button class="button-cta" id="modal-open">View Package</button>
+        </div>
 
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+          <h3>Marketing Package Two</h3>
+          <p>The Standard Package</p>
+            <button class="button-cta" id="modal-open">View Package</button>
+        </div>
+
+        <div class="card">
+            <i class="far fa-lightbulb"></i>
+          <h3>Marketing Package Three</h3>
+          <p>In depth Marketing Package</p>
+            <button class="button-cta" id="modal-open">View Package</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-right">
+      <h2 class="section-header">Contact Us</h2>
+      <div id="after_submit"></div>
+      <form id="contact_form" action="form-to-email.php " name="contact-form" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label for="name">Your name:</label><br />
+          <input id="name" class="input" name="name" type="text" size="30" required/><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" size="30" required/><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+          
+          <input id="submit_button" name="submit" type="submit" value="Send email" />
+      </form>
+
+      <p>We endeavour to respond to all messages within 1 working day</p>
+      
+    </section>
+
+</main>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <div class="modal-inner">
+      <h2 class="section-header">Package One</h2>
+      <h3>Web Package One</h3>
+      <p>From £179 + monthly hosting fees</p>
+        <ul>
+          <li>Landing Page Build</li>
+          <li>Up to 5 sections</li>
+          <li>Contact Form</li>
+          <li>Social Media Links</li>
+          <li>Google Maps</li>
+        </ul>
+        <a href="mailto:stevenmarks75@gmail.com?subject=Enquiry about Landing Page Package!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <div class="modal-inner">
+      <h2 class="section-header">Web Package Two</h2>
+      <p>From £475 + monthly hosting fees</p>
+      <ul>
+          <li>Landing Page Custom Design and Build</li>
+          <li>Up to 5 separate pages</li>
+          <li>Contact Form</li>
+          <li>Social Media Links</li>
+          <li>Google Maps</li>
+          <li>Site adapted to a popular CMS (content management system)
+            and a half day training how to use it to update your site.
+          </li>
+          <li>2 weeks after sales content changes</li>
+          <li>A months worth of Blog Posts</li>
+      </ul>
+      <a href="mailto:stevenmarks75@gmail.com?subject=Enquiry about Functional Website Package!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <div class="modal-inner">
+      <h2 class="section-header">Web Package Three</h2>
+      <p>From £1500 + £99 per month Monthly hosting and site maintainance fees.</p>
+      <ul>
+          <li>Landing Page Custom Design and Build</li>
+          <li>Unlimited Pages</li>
+          <li>Fully integrated online shop or booking system, dependant on the business,
+            to ensure your business is fully functional online.
+          </li>
+          <li>Contact Form</li>
+          <li>Social Media Links</li>
+          <li>Google Maps</li>
+          <li>Content Writing Services</li>
+          <li>Full branding available</li>
+          <li>Full SEO evaluation and action plan to get your site
+            ranked on Google!
+          </li>
+          <li>Email marketing design and content</li>
+          <li>All products updates</li>
+          <li>All monthly maintainance</li>
+        </ul>
+        <a href="mailto:stevenmarks75@gmail.com?subject=Enquiry about E-Commerce Package!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <div class="modal-inner">
+      <h2 class="section-header">Marketing Package One</h2>
+      <p>£59 per month</p>
+      <ul>
+        <li>1 post per week on social media channels of your choice (up to 5)</li>
+        <li>Monthly Action Report</li>
+      </ul>
+      <a href="mailto:stevenmarks75@gmail.com?subject=Enquiry about Marketing Package 1!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <a class="modal-inner">
+      <h2 class="section-header">Marketing Package Two</h2>
+      <p>£99 per month</p>
+      <ul>
+        <li>2 posts per week on social media channels of your choice (up to 5)</li>
+        <li>Targeted posting in local groups</li>
+        <li>Monthly Action Report</li>
+      </ul>
+      <button href="mailto:stevenmarks75@gmail.com?subject=Enquiry about Marketing Package 2!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+  <div class="modal-container">
+      <div class="close-btn" id="modal-close"><i class="far fa-window-close"></i></div>
+    <div class="modal-inner">
+      <h2 class="section-header">Marketing Package Three</h2>
+      <p>£175 per month</p>
+        <ul>
+          <li>Daily Posts (although I only live post during the week, I can schedule posts for weekend
+            days should your channel provide scheduling services). Up to 5 channels</li>
+            <li>Monthly Action Report</li>
+            <li>Targeted posting in local groups</li>
+            <li>1 x Facebook ad creation (£15 spend)</li>
+            <li></li>
+        </ul>
+      <a href="mailto:stevenmarks75@gmail.com?subject=Enquiry about Marketing Package 3!"><button class="button-cta">Select package</button></a>
+    </div>
+  </div>
+
+
+<footer>
+  <p>&copy <span class="year"></span> BVSWebDesign</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script src="animations.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 400,
+    duration: 1200
+  });
+</script>
 </body>
 </html>
